@@ -28,10 +28,10 @@ def get_version():
     return __version__
 
 setuptools.setup(
-    name="ptnad_api_aw350m3",
+    name="ptnad_api",
     version=get_version(),
     author="Anton Kutepov",
-    author_email="aw350m3@yandex.com",
+    author_email="",
     description="Basic PT Network Attack Discovery API wrapper",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
